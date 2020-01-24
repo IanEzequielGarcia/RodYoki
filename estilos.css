@@ -1,0 +1,28 @@
+
+header{
+    text-align: left;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    background-color: #536872;
+    margin: auto;
+    border: 1px solid 	#0e1111;
+}
+.menu{
+    background: #232B2B;
+    padding: 5px 10px;
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 30px;
+    display: inline-block;
+}
+footer{
+    clear: both;
+    padding: 20px;
+    background: #36454f;
+    color: darkblue;
+}
