@@ -19,10 +19,32 @@ body{
     padding: 5px;
     font: bold 30px;
     display: inline-block;
+    position: relative;
 }
 footer{
     clear: both;
     padding: 20px;
     background: #36454f;
     color: darkblue;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: #000000;
+}
+.menu a::before{
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: floralwhite;
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+nav a:hover::before{
+    width: 100%;
 }
